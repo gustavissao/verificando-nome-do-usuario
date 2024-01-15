@@ -1,0 +1,7 @@
+name = str(input('Digite seu nome completo?: ')).strip()
+print("Muito prazer em conhece-lo")
+n1 = name.split()
+print(f"Seu primeiro nome é {n1[0]} ")
+print(f"E seu ultimo nome é {n1[len(n1) -1]}")
+print(f"Seu nome tem Gustavo? {'GUSTAVO'in name.upper().split()}")
+print("Seu nome começa com Gustavo", name[0:7].upper() == 'GUSTAVO')
